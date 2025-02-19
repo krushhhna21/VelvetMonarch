@@ -448,3 +448,12 @@ footer a:hover {
   margin: 0 10px;        /* Adds spacing between images */
   max-width: 100px;      /* Adjust this value based on your design */         
   
+  body {
+    background-image: url("images/banner.jpg"); /* Change path as needed */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    font-family: 'Poppins', sans-serif; /* Keeps your font styling */
+    color: white; /* Adjust text color for better readability */
+}
